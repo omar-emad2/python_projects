@@ -50,3 +50,13 @@ elif second_input >= first_input and second_input >= third_input:
   print('The Largest number is from second ' + str(second_input))
 else:
   print('The Largest number is from third ' + str(third_input))
+
+
+
+number=int (input(' Guess my number ? \n '))
+if number>0:
+    print('positive')
+elif number<0:
+    print('negative')
+else:
+    print('number is zero')
