@@ -17,7 +17,7 @@ print('Give the guy : $'+str_budget)
 
 
 
-
+# كود لطباعه النسخ
 p=input('Type the text you want to copy :\n ')
 s=input ('How many copies? ?\n')
 s_int=int(s)
