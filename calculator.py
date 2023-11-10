@@ -13,3 +13,14 @@ print('The total are is :'+str_area )
 budget=(float_money*area)
 str_budget=str(budget)
 print('Give the guy : $'+str_budget)
+
+
+
+
+
+p=input('Type the text you want to copy :\n ')
+s=input ('How many copies? ?\n')
+s_int=int(s)
+for x in range(s_int):
+    print (p)
+print (' Counting begins with the number zero')    
